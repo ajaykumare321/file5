@@ -1,0 +1,4 @@
+'German ß, ♬'.encode(encoding='ascii', errors='backslashreplace')
+b'German \\xdf, \\u266c'
+'German ß, ♬'.encode(encoding='ascii', errors='xmlcharrefreplace')
+b'German &#223;, &#9836;'
